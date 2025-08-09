@@ -5,7 +5,7 @@ import { getAuth } from 'firebase/auth';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   // --- PASTE YOUR NEW REGENERATED API KEY HERE ---
-  apiKey: "AIzaSyDtR16uuknsTikubC308bFQxyYKerh2lBA", 
+  apiKey: "", 
   authDomain: "kumarshoes-b2c90.firebaseapp.com",
   projectId: "kumarshoes-b2c90",
   storageBucket: "kumarshoes-b2c90.appspot.com",
@@ -21,4 +21,5 @@ const db = getFirestore(app);
 const auth = getAuth(app);
 
 // Export the services for use in other parts of the app
+
 export { app, db, auth };
